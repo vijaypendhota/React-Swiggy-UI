@@ -1,0 +1,256 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+   
+}
+
+.frontpage{
+    width: 100vw;
+    overflow-x: hidden;
+    scrollbar-width: none;
+    height: 100vh; 
+    background-color: orangered;
+    
+}
+
+.logo{
+    display: flex;
+    gap: 10px;
+}
+
+.logo img{
+    width: 50px;
+    margin-left: 125px;
+    margin-top: 30px;
+    border-radius: 20px;
+    
+}
+.logo img:hover{
+    cursor: pointer;
+}
+.logo h2{
+    font-weight: bold;
+    margin-top: 40px;
+    color: white;
+}
+
+.logo h2:hover{
+    cursor: pointer;
+}
+
+.menu ul{
+    display: flex;
+    color: white;
+    gap: 30px;
+    list-style: none;
+    font-size: medium;
+     margin-left: 480px;
+     margin-top: -30px;
+     font-weight: bold;
+    
+}
+
+.menu ul:hover{
+    cursor: pointer;
+}
+.app{
+    border: 1px solid white;
+    width: 180px;
+    padding: 20px;
+    border-radius: 20px;
+    margin-left:800px ;
+    margin-top: -40px;
+    color: white;
+    display: flex;
+    gap: 5px;
+} 
+
+.app img{
+    width: 20px;
+    height: 30px;
+    
+
+}
+
+.app:hover{
+        cursor: pointer;
+}
+.signin{
+    background-color: black;
+    width: 150px;
+    padding: 20px;
+    border-radius: 20px;
+    margin-left:1020px ;
+    margin-top: -60px;
+    text-align: center;
+    color: white;
+    font-size: medium;
+}
+
+.signin:hover{
+    cursor: pointer;
+}
+
+h5{
+    font-size: medium;
+}
+
+.bag img{
+   width: 700px;        /* visible area */
+  height: 600px;
+  overflow: hidden;    /* hides rest of image */
+ background-color:none;
+  transform:rotate(45deg);
+  margin-left: -450px;
+  margin-top: 40px;
+}
+
+.heading{
+
+    text-align: center;
+}
+
+.heading h1{
+    font-size: 50px;
+   width: 60%;
+   margin-top: -500px;
+   margin-left: 300px;
+   color: white;
+}
+.snacks img{
+    
+   width: 700px;        /* visible area */
+  height: 600px;
+  overflow: hidden;    /* hides rest of image */
+ background-color:none;
+  transform:rotate(135deg);
+  margin-left: 1100px;
+  margin-top: -200px;
+}
+
+#drop{
+    margin-left: 250px;
+    margin-top: 30px;
+    width: 300px;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: medium;
+    font-weight: bold;
+    color: gray;
+}
+
+.searchbar {
+    margin-left: 600px;
+    margin-top: -50px;
+    display: flex;
+   
+}
+.searchbar input{
+   
+   width: 450px;
+    padding: 15px;
+     font-size: medium;
+    font-weight: bold;
+    color: gray;
+    border-radius: 10px;
+}
+
+.search{
+    position: relative;
+    left: -40px;
+    top: 20px;
+    width: 20px;
+}
+
+.cards{
+    margin-top: -200px;
+    
+    height: 250px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.delivery{
+    
+    width: 250px;
+    background-color: white;
+    border-radius: 25px;
+  }
+.delivery img{
+    
+    width: 200px;
+   margin-left: 70px;
+   margin-top: -70px;
+   
+  }
+
+.instamart{
+    
+    width: 250px;
+    background-color: white;
+    border-radius: 25px;
+
+}
+.instamart img{
+    
+    width: 220px;
+   margin-left: 70px;
+   margin-top: -80px;
+   
+  }
+
+
+.dineout{
+    
+    width: 250px;
+    background-color: white;
+    border-radius: 25px;
+
+}
+.dineout img{
+    
+    width: 180px;
+   margin-left: 80px;
+   margin-top: -100px;
+     }
+  .lastline{
+    width: 80%;
+    background-color: white;
+    height: 15px;
+   margin-left: 130px;
+   margin-top: 30px;
+  color: gray;
+  }  
+  
+  .middlepage{
+    margin: 100px;
+    background-color: white;
+  }
+  .bestfood{
+   margin: 30px;
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    gap: 10px;
+    row-gap: 50px;
+    text-align: center;
+    
+  }
+  .food:hover{
+   cursor: pointer;
+  }
+  .food img{
+    width: 150px;
+    height: 100px;
+    filter:drop-shadow(0px 6px 10px rgba(0, 0, 0, 0.4));
+    
+  }
+  .food label{
+    font-size: large;
+
+  }
+  .food label:hover{
+    cursor: pointer;
+  }
