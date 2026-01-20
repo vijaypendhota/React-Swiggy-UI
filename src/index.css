@@ -253,4 +253,6 @@ h5{
   }
   .food label:hover{
     cursor: pointer;
+    font-size: 2rem;
   }
+

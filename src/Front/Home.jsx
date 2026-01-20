@@ -136,7 +136,7 @@ const FrontPage = () => {
         </div>      
         
         </div>
-      
+      My name is vijay
     </div>
     </>
     
